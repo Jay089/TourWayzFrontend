@@ -1,0 +1,33 @@
+.about-container{
+    margin: 4rem 6rem;
+    text-align: center;
+    display: center;
+}
+
+.about-container h1{
+    padding-bottom: 1rem;
+    font-family: var(--subtitle-font-name); 
+    background-color: var(--secondary-color);
+    color: white;
+    display: inline;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.about-container p{
+    padding-bottom: 2rem;
+    font-size: large;
+    margin: 3rem;
+    padding: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serifs;
+    background-color: rgb(233, 233, 233);
+    border-radius: 3rem;
+    
+}
+
+@media screen and (max-width:850px){
+    .about-container{
+        margin: 4rem 2rem;
+    }
+}
