@@ -20,6 +20,7 @@ const CreateTour = () => {
     price: undefined,
     maxGroupSize: undefined,
     desc: undefined,
+    reviews: [],
     featured: false,
   });
 
@@ -162,6 +163,15 @@ const CreateTour = () => {
                       />
                     </label>
                   </FormGroup>
+                  {/* <FormGroup>
+                    <label>
+                      <input
+                        type="hidden"
+                        id="reviews"
+                        onChange={handleChange}
+                      />
+                    </label>
+                  </FormGroup> */}
                   <button className="btn secondary_btn auth_btn" type="submit">
                     CREATE_TOUR
                   </button>
